@@ -1,0 +1,40 @@
+.page {
+  &.home {
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    grid-gap: 3rem;
+
+
+    main.main-content {
+      padding-right: 15vw;
+
+      .title-intro {
+        font-size: 16px;
+        letter-spacing: 1.71px;
+        margin-top: 7rem;
+        text-transform: uppercase;
+      }
+
+      .title {
+        font-size: 45px;
+        letter-spacing: 0.59px;
+        margin-top: 1rem;
+        text-transform: uppercase;
+      }
+
+      .about-headline {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        line-height: 2rem;
+        font-size: 16px;
+        letter-spacing: 0.21px;
+      }
+  
+      .view-portfolio {
+        display: inline-block;
+        margin-top: 2rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
