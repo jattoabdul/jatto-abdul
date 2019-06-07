@@ -1,0 +1,29 @@
+.page {
+  &.about {
+    main {
+      display: grid;
+      grid-template-columns: 3fr 6fr;
+      grid-gap: 6rem;
+      padding-top: 4rem;
+      padding-bottom: 2.5rem;
+
+      .side-headline-text {
+        text-align: right;
+        font-size: 3rem;
+        font-weight: bold;
+
+      }
+
+      .about-main {
+        padding-right: 12vw;
+
+        p {
+          font-size: 14px;
+          line-height: 35px;
+          letter-spacing: 0.18px;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}

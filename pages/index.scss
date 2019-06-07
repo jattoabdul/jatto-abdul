@@ -1,0 +1,81 @@
+.page {
+  &.home {
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    grid-gap: 3rem;
+
+    .side-image {
+      img {
+        width: 505px;
+      }
+
+      @include breakpoint($max: 768px) {
+        img {
+          width: 350px;
+        }
+      }
+    
+      @include for-phone-only {
+        display: none;
+      }
+    }
+
+
+    main.main-content {
+      padding-right: 15vw;
+
+      .title-intro {
+        font-size: 16px;
+        letter-spacing: 1.71px;
+        margin-top: 7rem;
+        text-transform: uppercase;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+
+        @include breakpoint($max: 768px) {
+          margin-top: 2rem;
+        }
+    
+        @include for-phone-only {
+          margin-top: 2rem;
+        }
+      }
+
+      .title {
+        font-size: 45px;
+        font-weight: bold;
+        letter-spacing: 0.59px;
+        margin-top: 1rem;
+        text-transform: uppercase;
+      }
+
+      .about-headline {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        line-height: 2rem;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.21px;
+        color: #505050;
+
+        @include breakpoint($max: 768px) {
+          margin-bottom: 1rem;
+        }
+      }
+  
+      .view-portfolio {
+        display: inline-block;
+        margin-top: 2rem;
+        text-transform: uppercase;
+
+        @include breakpoint($max: 768px) {
+          margin-top: 1rem;
+        }
+    
+        @include for-phone-only {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

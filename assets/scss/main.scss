@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Rubik:400,500,700');
+
+html, * {
+  font-family: 'Merriweather', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  // user-select: none;
+  box-sizing: border-box;
+  transition: .3s all ease-in-out;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $light;
+  color: $dark;
+
+  &.dark {
+    background: $dark;
+    color: $light;
+  }
+}
+
+.layout {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.container {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 9vh;
+
+  &.s2 {
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+
+    @include breakpoint($max: 767px) {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  
+    @include for-phone-only {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  }
+
+  &.x2 {
+    padding-left: 30vw;
+    padding-right: 30vw;
+
+    @include breakpoint($max: 767px) {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  
+    @include for-phone-only {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+  }
+
+  @include breakpoint($max: 768px) {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 6vh;
+  }
+
+  @include for-phone-only {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+
+p {
+  &.flow-text {
+    font-size: 1.68rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// helpers
+.left-align {
+  text-align: left;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+// .card {
+//   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+//   text-decoration: none;
+// }
+
+
+button, .btn {
+  background: $light;
+  color: $dark;
+  border-radius: 0;
+  border: 1px solid rgba(159, 159, 159, 0.5);
+  padding: .5rem 2rem;
+  position: relative;
+
+  &.dark {
+    background: $dark;
+    color: $light;
+    border: 1px solid $light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hide {
+  display: none !important;
+}
+
+.card {
+  &.center-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.f-order-1 { order: 1 }
+.f-order-2 { order: 2 }
+.f-order-3 { order: 3 }
+.f-order-4 { order: 4 }
+.f-order-5 { order: 5 }
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  &.two, &.equal-two {
+    grid-template-columns: 1fr 1fr;
+    
+    @include breakpoint($max: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &.three {
+    grid-template-columns: 1fr 1fr;
+  }
+  &.two-three {
+    grid-template-columns: 2fr 3fr;
+  }
+  &.three-two {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .wide {
+    grid-column: 1 / -1;
+  }
+
+  .span-col-2 {
+    grid-column: span 2;
+    
+    @include breakpoint($max: 500px) {
+      grid-column: span 1;
+    }
+  }
+}
+
+.hide-on-med-and-down {
+  @include breakpoint ($max: 992px) {
+    display: none;
+  }
+}
+
+.hide-on-small {
+  @include breakpoint ($max: 767px) {
+    display: none;
+  }
+}
+.hide-on-mobile {
+  @include breakpoint ($max: 700px) {
+    display: none;
+  }
+}
+.only-mobile {
+  @include breakpoint($min:700px) {
+    display: none !important;
+  }
+}
