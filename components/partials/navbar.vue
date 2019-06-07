@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="navClass">
     <nuxt-link to="/">
       Home
     </nuxt-link>
@@ -17,5 +17,16 @@
     </a>
   </nav>
 </template>
+
+<script>
+export default {
+  props: {
+    navClass: {
+      type: String,
+      default: ''
+    }
+  }
+}
+</script>
 
 <style lang="scss" src="./navbar.scss" scoped />

@@ -9,7 +9,7 @@ nav {
     margin: 0 1rem;
     color: rgba(0, 0, 0, 0.5);
 
-    &.active {
+    &.active, &:hover {
       position: relative;
       color: $dark;
 

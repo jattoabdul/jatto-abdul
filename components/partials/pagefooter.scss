@@ -1,0 +1,8 @@
+footer {
+  background: $dark;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+  grid-gap: 6rem;
+  color: $light;
+  padding: 3.5rem 6vw 2rem;
+}
