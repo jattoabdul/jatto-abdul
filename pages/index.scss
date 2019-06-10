@@ -20,9 +20,21 @@
       }
     }
 
+    .side-image-mobile {
+      display: none;
+
+      @include for-phone-only {
+        display: block;
+        margin-top: 1rem;
+
+        img {
+          width: 95vw;
+        }
+      }
+    }
 
     main.main-content {
-      padding-right: 15vw;
+      padding-right: 12vw;
 
       .title-intro {
         font-size: 16px;

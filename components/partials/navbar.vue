@@ -12,7 +12,7 @@
     <nuxt-link to="/blog">
       Blog
     </nuxt-link>
-    <a href="mailto:abdul@jatto.com" target="_blank" class="contact-action">
+    <a href="mailto:abdul@jatto.tech" target="_blank" class="contact-action">
       Email Me
     </a>
   </nav>
