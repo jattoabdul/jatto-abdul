@@ -4,7 +4,10 @@
       <img src="/img/jatto.jpg" alt="My personal picture">
     </div>
     <div class="home-main">
-      <nav-bar />
+      <nav-bar nav-class="home" />
+      <div class="side-image-mobile">
+        <img src="/img/jatto-mobile.jpg" alt="My personal picture for mobile">
+      </div>
       <main class="main-content">
         <h2 class="title-intro">
           HELLO! I AM

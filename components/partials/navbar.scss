@@ -7,7 +7,17 @@ nav {
   a {
     padding: 0 0 0.5rem;
     margin: 0 1rem;
+    display: inline-block;
     color: rgba(0, 0, 0, 0.5);
+    
+    @include breakpoint($max: 768px) {
+      margin: 0 1rem 0 0;
+    }
+  
+    @include for-phone-only {
+      margin: 0 1rem 0 0;
+    }
+  
 
     &.active, &:hover {
       position: relative;
@@ -23,6 +33,23 @@ nav {
         left: 0;
       }
     }
+  }
 
+  @include breakpoint($max: 768px) {
+    &.home {
+      justify-content: flex-start;
+      a {
+        margin: 0 0.5rem 0 0;
+      }
+    }
+  }
+
+  @include for-phone-only {
+    &.home {
+      justify-content: center;
+      a {
+        margin: 0 1rem 0 0;
+      }
+    }
   }
 }

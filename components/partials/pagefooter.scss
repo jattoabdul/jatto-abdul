@@ -5,4 +5,81 @@ footer {
   grid-gap: 6rem;
   color: $light;
   padding: 3.5rem 6vw 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+
+  @include breakpoint($max: 768px) {
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  @include for-phone-only {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 3rem;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+    font-size: 24px;
+  }
+
+  .careers {
+    .career {
+      margin-bottom: 1rem;
+      span {
+        display: inline-block;
+        margin-top: .5rem;
+        font-size: .7rem;
+        font-style: italic;
+        color: #838383;
+        font-weight: 500;
+      }
+    }
+  }
+
+
+  .skills {
+    .content {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .socials-contact {
+    .content {
+      line-height: 2rem;
+      letter-spacing: 0.21px;
+      margin-bottom: 2rem;
+
+      p a {
+        color: #efbe41;
+
+        &:hover {
+          color: #ffb700;
+        }
+      }
+    }
+
+    .socials {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      @include for-phone-only {
+        justify-content: center;
+      }
+
+      a {
+        display: inline-block;
+        margin-right: 2.5rem
+      }
+      img {}
+    }
+  }
 }
