@@ -20,12 +20,12 @@
           When I am not writing code or participating in online coding / algorithm challenges/games, I like to engage in some sporting activities. I do a martial art-taekwondo for self defense and sometimes I can be found playing soccer or video games.
         </p>
         <p>
-          Programming Languages: Python, Ruby, Javascript <br>
-          Tech Stacks: Flask, Django, Ruby on Rails, Node/Express, React/Redux, Vuejs/Nuxt.js <br>
-          Databases: PostgreSQL, MySQL, MongoDB, Redis <br>
-          API Specs: REST, GraphQL <br>
-          Infrastructure: AWS, Heroku, Git, Cloudinary <br>
-          Continuous Integration: CircleCI, TravisCI, GitlabCI <br>
+          <span>Programming Languages:</span> Python, Ruby, Javascript<br>
+          <span>Tech Stacks:</span> Flask, Django, Ruby on Rails, Node/Express, React/Redux, Vuejs/Nuxt.js <br>
+          <span>Databases:</span> PostgreSQL, MySQL, MongoDB, Redis <br>
+          <span>API Specs:</span> REST, GraphQL <br>
+          <span>Infrastructure:</span> AWS, Heroku, Git, Cloudinary <br>
+          <span>Continuous Integration:</span> CircleCI, TravisCI, GitlabCI <br>
         </p>
       </div>
     </main>
