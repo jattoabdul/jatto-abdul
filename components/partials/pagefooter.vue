@@ -34,14 +34,13 @@
         Skill set
       </h2>
       <ul class="content">
-        <li>HTML5</li>
         <li>JAVASCRIPT</li>
         <li>PYTHON</li>
         <li>RUBY</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
         <li>DB MANAGEMENT</li>
         <li>JAVA (Android)</li>
-        <li>PHP</li>
-        <li>CSS3</li>
       </ul>
     </div>
     <div class="socials-contact">

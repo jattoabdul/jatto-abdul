@@ -1,0 +1,53 @@
+.page {
+  &.portfolio {
+    main.portfolio-main {
+      padding-top: 4rem;
+      padding-bottom: 2.5rem;
+
+      .project-wrapper {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        background-color: #f3f3f3;
+        border-radius: 4px;
+        margin-bottom: 5rem;
+        // height: 48vh;
+  
+        .project-detail {
+          padding: 1.5rem 1.5rem 1rem 1rem;
+
+          h2 {
+            margin-bottom: 1rem;
+          }
+
+          p {
+            margin-bottom: 1rem;
+            color: #505050;
+
+            &.about-project {}
+
+            &.technologies {
+              color: #9f9f9f;
+
+              span {
+                color: $dark;
+              }
+            }
+          }
+
+          a {
+            display: inline-block;
+            margin-top: 1rem;
+          }
+        }
+  
+        .project-headline-img {
+          img {
+            max-width: 100%;
+            // width: 100%;
+            // width: 42vh;
+          }
+        }
+      }
+    }
+  }
+}
