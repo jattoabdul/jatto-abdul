@@ -3,6 +3,8 @@
     main.portfolio-main {
       padding-top: 4rem;
       padding-bottom: 2.5rem;
+      padding-right: 3.5rem;
+      padding-left: 3.5rem;
 
       .project-wrapper {
         display: grid;
@@ -16,12 +18,19 @@
           padding: 1.5rem 1.5rem 1rem 1rem;
 
           h2 {
-            margin-bottom: 1rem;
+            margin-bottom: .5rem;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 25px;
+            letter-spacing: 0.31px;
           }
 
           p {
-            margin-bottom: 1rem;
+            margin-bottom: .5rem;
             color: #505050;
+            font-size: 16px;
+            line-height: 25px;
+            letter-spacing: 0.21px;
 
             &.about-project {}
 
@@ -32,6 +41,10 @@
                 color: $dark;
               }
             }
+          }
+
+          .visit-site {
+            margin-right: 2rem;
           }
 
           a {
@@ -46,6 +59,31 @@
             // width: 100%;
             // width: 42vh;
           }
+        }
+      }
+
+      .back-to-top {
+        background: $dark;
+        color: $light;
+        width: 4vw;
+        height: 4vw;
+        // padding: .5rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 5vh;
+        left: 6vw;
+        cursor: pointer;
+        opacity: 0.8;
+        filter: alpha(opacity=80); /* For IE8 and earlier */
+        text-align: center;
+
+        span {
+          display: inline-block;
+          font-size: .5rem;
         }
       }
     }
