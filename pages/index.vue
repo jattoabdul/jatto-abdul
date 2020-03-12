@@ -17,7 +17,7 @@
           <br> AMINUJATTO
         </h1>
         <p class="about-headline">
-          I am a versatile fullstack software engineer and a tech evangelist. I hold a bachelor of technology’s degree in geology with about 4 years experience building incredible software products for globally distributed teams.
+          I am a versatile Senior Software Engineer and a Tech Evangelist. I hold a bachelor of technology's degree in Geology with 5+ years experience building incredible software products for globally distributed teams.
         </p>
 
         <nuxt-link to="/portfolio" class="btn view-portfolio">
