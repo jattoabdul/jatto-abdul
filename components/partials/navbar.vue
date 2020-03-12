@@ -9,9 +9,9 @@
     <nuxt-link to="/about">
       About/Resume
     </nuxt-link>
-    <nuxt-link to="/blog">
+    <a href="https://blog.jatto.tech" target="_blank" class="blog-action">
       Blog
-    </nuxt-link>
+    </a>
     <a href="mailto:abdul@jatto.tech" target="_blank" class="contact-action">
       Email Me
     </a>
