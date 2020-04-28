@@ -19,7 +19,7 @@
             Repo: Undisclosed
           </span>
         </div>
-        <div class="project-headline-img">
+        <div :style="{ background: portfolio.themeColor }" class="project-headline-img">
           <img :src="portfolio.headlineImageUrl" alt="Project name">
         </div>
       </div>
@@ -72,7 +72,7 @@ export default {
           repoUrl: 'https://github.com/devcenter-square/Learning-Resource-Path-Front-End',
           themeColor: '#189fd8',
           siteUrl: 'https://devcenteropensource.com',
-          headlineImageUrl: '/img/devcenterlrp.jpg'
+          headlineImageUrl: '/img/devclrp.png'
         },
         {
           id: 4,
@@ -82,7 +82,27 @@ export default {
           repoUrl: null,
           themeColor: '#b13231',
           siteUrl: 'https://gorgeouscard-frontend.herokuapp.com',
-          headlineImageUrl: '/img/gorgeouscard.jpg'
+          headlineImageUrl: '/img/gorgeouscard.png'
+        },
+        {
+          id: 5,
+          name: 'PostIt',
+          about: 'Is a simple application that allows friends and colleagues create groups for notifications. This way one person can post notifications to everyone by sending a message once - a broadcast message. The application allows people create accounts, create groups and add registered users to the groups, and then send messages out to these groups whenever they want.',
+          technologies: '<span style="color: #2a9d8f">Technologies: </span>React.js, Node.js/Express',
+          repoUrl: 'https://github.com/jattoabdul/andela-bootcamp-postit',
+          themeColor: '#2a9d8f',
+          siteUrl: 'https://jatto-postit-app-staging.herokuapp.com',
+          headlineImageUrl: '/img/postit.png'
+        },
+        {
+          id: 6,
+          name: 'Jolly.ng',
+          about: 'Jolly is a location discovery and rating service. The application helps you find fun places around you to explore, visit and hang out. I lead the product team at jolly over seeing the design, engineering and release phases. I actively contribute code to the project for features from recommendation systems to social/follower features.',
+          technologies: '<span style="color: rgb(196, 27, 16)">Technologies: </span>Laravel, HTML/CSS, JQuery',
+          repoUrl: null,
+          themeColor: 'rgb(196, 27, 16)',
+          siteUrl: 'https://jolly.ng',
+          headlineImageUrl: '/img/jolly.png'
         }
       ]
     }

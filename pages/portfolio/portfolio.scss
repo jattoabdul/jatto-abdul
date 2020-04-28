@@ -13,6 +13,24 @@
         border-radius: 4px;
         margin-bottom: 5rem;
         // height: 48vh;
+
+        grid-template-rows: auto;
+        @include for-phone-only {
+          grid-template-rows: auto;
+          grid-template-columns: auto;
+
+          .project-detail {
+            order: 2;
+
+            .btn.visit-site {
+              display: block;
+              margin-bottom: 1rem;
+            }
+          }
+          .project-headline-img {
+            order: 1;
+          }
+        }
   
         .project-detail {
           padding: 1.5rem 1.5rem 1rem 1rem;
@@ -84,6 +102,11 @@
         span {
           display: inline-block;
           font-size: .5rem;
+        }
+
+        @include for-phone-only {
+          width: 14vw;
+          height: 14vw;
         }
       }
     }

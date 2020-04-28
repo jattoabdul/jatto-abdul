@@ -8,7 +8,7 @@
       </div>
       <div class="about-main">
         <p>
-          I am a versatile Senior Software Engineer and a Tech Evangelist. I hold a bachelor of technology's degree in Geology with 5+ years experience building incredible software products and balancing client urgency in conjunction with technological complexity of developing these products for globally distributed teams. designing and developing solutions to solve complex technical problems.
+          I am a versatile Senior Software Engineer and a Tech Evangelist. I hold a bachelor of technology's degree in Geology with 6+ years experience building incredible software products and balancing client urgency in conjunction with technological complexity of developing these products for globally distributed teams. designing and developing solutions to solve complex technical problems.
         </p>
         <p>
           I have successfully interacted with diverse programming languages and technologies. At the core is Python, Javascript and Ruby with emphasis on frameworks such as React, Vue.js, Nodejs, Expressjs, Ruby On Rails, Flask and Django. I have built Restful and GraphQL APIs alike. I have also worked with databases such as PostgreSQL, MySQL, MongoDB and Redis for Caching/Job Queues. I have experience using AWS API Gateway, AWS Websocket Gateway, AWS Lambda, Cloudfront.

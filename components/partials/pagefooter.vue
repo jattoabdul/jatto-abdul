@@ -5,24 +5,24 @@
         Career
       </h2>
       <p class="career">
-        Andela, Nigeria — Software Engineer <br>
+        Andela, Nigeria — Senior Software Engineer <br>
         <span>AUG 2017 - PRESENT</span>
       </p>
       <p class="career">
-        Iris Nova, New York — Software Engineer <br>
-        <span>JULY 2018 - PRESENT</span>
+        Iris Nova, New York — Senior Software Engineer <br>
+        <span>JULY 2018 - MAR 2020</span>
       </p>
       <p class="career">
-        Heroshe, Houston — Software Developer <br>
-        <span>AUG 2018 - MAY 2019</span>
-      </p>
-      <p class="career">
-        Jolly.ng, Abuja — Junior Software Developer <br>
-        <span>MARCH 2017 - JULY 2017</span>
+        CodeSquad LLC, Nigeria — Software Developer <br>
+        <span>APR 2017 - July 2017</span>
       </p>
       <p class="career">
         Speckless Innovation, Lagos — Junior Software Developer <br>
-        <span>JAN 2019 - MAY 2019</span>
+        <span>DEC 2016 - MAR 2017</span>
+      </p>
+      <p class="career">
+        Jolly.ng, Abuja — Junior Software Developer <br>
+        <span>JAN 2015 - NOV 2016</span>
       </p>
       <p class="career">
         NAPIMS, Lagos — Intern <br>
@@ -34,13 +34,15 @@
         Skill set
       </h2>
       <ul class="content">
-        <li>JAVASCRIPT</li>
         <li>PYTHON</li>
         <li>RUBY</li>
+        <li>JAVASCRIPT</li>
+        <li>Golang</li>
         <li>HTML5</li>
         <li>CSS3</li>
-        <li>DB MANAGEMENT</li>
+        <li>SYSTEM ARCHITECTURE</li>
         <li>JAVA (Android)</li>
+        <li>LOTS MORE...</li>
       </ul>
     </div>
     <div class="socials-contact">
